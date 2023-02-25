@@ -9,10 +9,10 @@ int InputInt(string msg)
     return (Convert.ToInt32(Console.ReadLine()));
 }
 
-int[] GeneraitArray(int lenght)
+int[] GeneraitArray(int length)
 {
-    int[] resalt = new int[lenght];
-    for (int i = 0; i < lenght; i++)
+    int[] resalt = new int[length];
+    for (int i = 0; i < length; i++)
     {
         resalt[i] = new Random().Next(100, 1000);
     }
